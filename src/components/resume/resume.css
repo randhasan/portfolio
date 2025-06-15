@@ -1,0 +1,9 @@
+.section__title{
+    margin-bottom: 1.1rem;
+}
+
+
+.resume-frame {
+    border: none;
+    box-shadow: var(--shadow);
+}

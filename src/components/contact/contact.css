@@ -1,0 +1,68 @@
+.contact__container {
+    grid-template-columns: 4fr 8fr;
+    column-gap: 1.875rem;
+}
+
+.contact__form-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.contact__form-div {
+    position: relative;
+    margin-bottom: 1.875rem;
+    height: 3.75rem;
+}
+
+/* special case for message textarea */
+.contact__form-div--message {
+    height: auto;
+    margin-bottom: .5rem;
+}
+
+.contact__form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--shadow);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.875rem;
+    z-index: 1;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+/* style override for textarea */
+.contact__form-input.message {
+    position: static;
+    /* prevents stretching weirdly in absolute container */
+    resize: none;
+    width: 100%;
+    height: auto;
+    min-height: 18rem;
+    /* matches rows=10 */
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5;
+    border-radius: 1.875rem;
+    box-shadow: var(--shadow);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    margin-bottom:-.6rem;
+}
+
+.char-count {
+    text-align: right;
+    font-size: var(--small-font-size);  /* small text */
+    color: var(--text-color);
+    padding-right: 1.3rem;
+    opacity: 0.7;
+  }
+  
