@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.38ee42c7.css",
+    "main.js": "/portfolio/static/js/main.80ce9921.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/swimribbons.png": "/portfolio/static/media/swimribbons.499866a7b113b1c66e8b.png",
+    "static/media/marathon1.png": "/portfolio/static/media/marathon1.96a03ff735e2f4cc941d.png",
+    "static/media/Project9.png": "/portfolio/static/media/Project9.902a6cd0e4c61dc5f2ff.png",
+    "static/media/Project4.png": "/portfolio/static/media/Project4.83ad030580a23908f3f3.png",
+    "static/media/toddler2.png": "/portfolio/static/media/toddler2.c1f80da302d6359eb31a.png",
+    "static/media/Project1.png": "/portfolio/static/media/Project1.e3cd29d455d391481298.png",
+    "static/media/headshot-sticker.png": "/portfolio/static/media/headshot-sticker.56fa698fcf4fcb87dfa1.png",
+    "static/media/Project7.png": "/portfolio/static/media/Project7.80755104d738b7bc74d8.png",
+    "static/media/Project2.png": "/portfolio/static/media/Project2.1280d3f5e8d5edd129b0.png",
+    "static/media/toddler1.png": "/portfolio/static/media/toddler1.424498f752079cc28dad.png",
+    "static/media/Project5.png": "/portfolio/static/media/Project5.d2eb66c575ed304f82a0.png",
+    "static/media/Project3.png": "/portfolio/static/media/Project3.2bcf21894d496affbb4d.png",
+    "static/media/marathon2.png": "/portfolio/static/media/marathon2.9475331c00d6be33fabb.png",
+    "static/media/Project6.png": "/portfolio/static/media/Project6.2c3be02a3aa1bde546e7.png",
+    "static/media/Project10.png": "/portfolio/static/media/Project10.e11eecbef002367bbd0c.png",
+    "static/media/swimcap.png": "/portfolio/static/media/swimcap.8b02a535e9078869e943.png",
+    "static/media/resumeBIZ.pdf": "/portfolio/static/media/resumeBIZ.afde4c82f931f353afad.pdf",
+    "static/media/Project8.png": "/portfolio/static/media/Project8.9ced6abc24ad65042bbf.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.38ee42c7.css.map": "/portfolio/static/css/main.38ee42c7.css.map",
+    "main.80ce9921.js.map": "/portfolio/static/js/main.80ce9921.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ee42c7.css",
+    "static/js/main.80ce9921.js"
+  ]
+}
