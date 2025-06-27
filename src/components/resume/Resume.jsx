@@ -1,6 +1,6 @@
 import React from 'react'
 import "./resume.css";
-import ResumePDF from "../../assets/resumeBIZ.pdf";
+import ResumePDF from "../../assets/resumeBiz.pdf";
 
 const Resume = () => {
   return (
