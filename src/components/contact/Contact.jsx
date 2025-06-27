@@ -4,28 +4,68 @@ import "./contact.css";
 const Contact = () => {
   const [message, setMessage] = useState("");
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    fetch("https://formspree.io/f/xdkzgboo", {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          setMessage("");
+          form.reset();
+          alert("Message sent!");
+        } else {
+          alert("Something went wrong. Please try again.");
+        }
+      })
+      .catch(() => alert("Network error. Try again later."));
+  };
+
   return (
     <section className="contact container section" id="contact">
       <h2 className="section__title">Get in Touch!</h2>
 
       <div className="contact__container grid">
         <div className="contact__info">
-          <p className="contact__details">Let's chat!  Send me an email.</p>
+          <p className="contact__details">Let's chat! Send me an email.</p>
         </div>
 
-        <form action="https://formspree.io/f/xdkzgboo" method="POST" className="contact__form">
+        <form onSubmit={handleSubmit} className="contact__form">
           <div className="contact__form-group">
             <div className="contact__form-div">
-              <input type="text" name="name" className="contact__form-input" placeholder='Insert your name' required/>
+              <input
+                type="text"
+                name="name"
+                className="contact__form-input"
+                placeholder="Insert your name"
+                required
+              />
             </div>
 
             <div className="contact__form-div">
-              <input type="email" name="email" className="contact__form-input" placeholder='Insert your email' required/>
+              <input
+                type="email"
+                name="email"
+                className="contact__form-input"
+                placeholder="Insert your email"
+                required
+              />
             </div>
           </div>
 
           <div className="contact__form-div">
-            <input type="text" name="subject" className="contact__form-input" placeholder='Insert your subject' />
+            <input
+              type="text"
+              name="subject"
+              className="contact__form-input"
+              placeholder="Insert your subject"
+            />
           </div>
 
           <div className="contact__form-div contact__form-div--message">
@@ -45,11 +85,10 @@ const Contact = () => {
           <div className="contact__form-div">
             <button type="submit" className="btn">Send Message</button>
           </div>
-
         </form>
-      </div >
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

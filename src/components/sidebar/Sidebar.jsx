@@ -31,7 +31,7 @@ const Sidebar = () => {
                         </li>
 
                         <li className = "nav__item">
-                            <a href="#portfolio" className="nav__link">
+                            <a href="#work" className="nav__link">
                                 <i className="icon-folder-alt"></i>
                             </a>
                         </li>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import "./portfolio.css";
+import "./work.css";
 import Menu from "./Menu";
 
-const Portfolio = () => {
+const Work = () => {
   const [items, setItems] = useState(Menu);
   const filterItem = (categoryItem) => {
     const updatedItems = Menu.filter((curElem) => {
@@ -46,4 +46,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Work

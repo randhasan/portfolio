@@ -44,7 +44,7 @@ const Menu = [
         image: Project5,
         title: "Slots",
         category: "Coding & Design",
-        link: "https://www.youtube.com/watch?v=sPpBYa9w26A",
+        link: "https://youtu.be/65Y5LKJEMpg",
 
     },
     {
