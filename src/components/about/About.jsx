@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Me from "../../assets/toddler2.png";
-import ResumePDF from "../../assets/resumeBIZ.pdf";
+import ResumePDF from "../../assets/resumeSITE.pdf";
 import Marathon1 from "../../assets/marathon1.png";
 import Marathon2 from "../../assets/marathon2.png";
 import SwimCap from "../../assets/swimcap.png";
