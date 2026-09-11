@@ -17,11 +17,11 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            I’m Rand Hasan, 22 years old, from Pittsburgh, PA, but now based in NYC!
+                            I’m Rand Hasan, 22 years old, from Pittsburgh, PA, but now based in New York City!
                         </p>
 
                         <p className="about__description">
-                            I started off wanting to become a Software Engineer, but through business classes discovered I enjoyed strategy and finance as much as I did coding.
+                            I started off wanting to become a Software Engineer, but discovered through my business courses that I enjoy finance and strategy as much as I do coding.
                         </p>
 
                         <p className="about__description">
