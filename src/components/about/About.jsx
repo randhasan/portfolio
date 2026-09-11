@@ -1,7 +1,6 @@
 import React from 'react';
 import "./about.css";
 import Me from "../../assets/toddler2.png";
-import ResumePDF from "../../assets/resumeSITE.pdf";
 import Marathon1 from "../../assets/marathon1.png";
 import Marathon2 from "../../assets/marathon2.png";
 import SwimCap from "../../assets/swimcap.png";
@@ -18,20 +17,17 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            I’m Rand Hasan, a 21 year old gal from Pittsburgh, PA. Over the past few years, I’ve spent time both in and out of school exploring where technology, business, and strategy intersect — and that’s where I’ve found the most energy.
+                            I’m Rand Hasan, 22 years old, from Pittsburgh, PA, but now based in NYC!
                         </p>
 
                         <p className="about__description">
-                            Beyond academics, I love moving my body, whether it be through long-distance running or at a club swim practice. I’m also a huge nerd when it comes to social psychology, vintage cameras, and the beauty industry (makeup + skincare).
+                            I started off wanting to become a Software Engineer, but through business classes discovered I enjoyed strategy and finance as much as I did coding.
                         </p>
 
                         <p className="about__description">
-                            Some of my other interests include late-night comedy shows, memes, rap and hip-hop, reading books (mostly non-fiction), hanging out with my friends and family, college basketball (particularly women’s and UVA + Pitt men’s), cute animals, and chatting with kids.
+                            Some of my other interests include long-distance running, swimming, the beauty industry, social psychology, amateur photography, late-night comedy shows, rap and hip-hop, reading (mostly non-fiction), hanging out with my family and friends, college basketball, singing, anything vintage, and being outside.
                         </p>
 
-                        <p className="about__description">
-                            I’m always chasing the next things to get curious about and learn more. You can always count on me for a random fun fact or even better, a fantastic restaurant recommendation (human zagat). I’m drawn to activities and work that feels impactful and human — and I’m so excited and lucky to keep exploring where that can lead.
-                        </p>
                     </div>
 
                     <div className="about__icons">
@@ -42,7 +38,23 @@ const About = () => {
                     </div>
 
                     <div className="about__button-container">
-                        <a href={ResumePDF} download className="btn">Download Resume</a>
+                        <button 
+                            className="btn"
+                            onClick = {() => {
+                                document.getElementById("contact")?.scrollIntoView({
+                                    behavior: "smooth"
+                                });
+
+                                setTimeout(() => {
+                                    const subject = document.getElementById("subject");
+                                    subject.value = "Request to View Resume";
+                
+                                }, 500);
+                            }}
+                            >
+                            Request Resume
+                            
+                        </button>
                     </div>
                 </div>
             </div>

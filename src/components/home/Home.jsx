@@ -10,7 +10,7 @@ const Home = () => {
             <div className="intro">
                 <img src = {Me} alt = "" className="home__img" />
                 <h1 className = "home__name">Rand Hasan</h1>
-                <span className = "home__education">I'm a rising senior at the University of Pittsburgh double-majoring in Computer Science and Finance.</span>
+                <span className = "home__education">I graduated from the University of Pittsburgh in Spring 2026 with a double degree in Finance and Computer Science.</span>
 
                 <HeaderSocials />
 

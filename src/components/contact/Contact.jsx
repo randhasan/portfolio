@@ -61,6 +61,7 @@ const Contact = () => {
 
           <div className="contact__form-div">
             <input
+              id = "subject"
               type="text"
               name="subject"
               className="contact__form-input"
